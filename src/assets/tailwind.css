@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Waldenburg';
+        src: url('fonts/Waldenburg-Buch.eot');
+        src: local('☺'), url('fonts/Waldenburg-Buch.woff') format('woff'), url('fonts/Waldenburg-Buch.ttf') format('truetype'), url('fonts/Waldenburg-Buch.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
