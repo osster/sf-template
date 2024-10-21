@@ -31,7 +31,7 @@
 import PorfolioBtn from '@/components/PorfolioBtn'
 import FooterGallery from '@/components/FooterGallery'
 import { useRoute } from 'vue-router'
-import {computed, onMounted, ref, watch} from 'vue'
+import {computed, onBeforeUnmount, onMounted, ref, watch} from 'vue'
 import { galleries } from '@/content'
 
 const bgStyle = ref('')
@@ -93,6 +93,12 @@ watch(
 
 onMounted(() => {
   initGallery()
+})
+onBeforeUnmount(() => {
+  if (timer.value) {
+    clearInterval(timer.value)
+    timer.value = null
+  }
 })
 </script>
 
