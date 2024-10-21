@@ -1,5 +1,5 @@
 import IndexPage from '@/pages/IndexPage'
-import InformationsPage from '@/pages/InformationsPage'
+import StudioPage from '@/pages/StudioPage'
 import ContactsPage from '@/pages/ContactsPage'
 import PortfolioPage from '@/pages/PortfolioPage'
 import SectionPage from '@/pages/SectionPage'
@@ -7,7 +7,7 @@ import FilterPage from '@/pages/FilterPage'
 
 export default [
   { path: '/', component: IndexPage },
-  { path: '/informations', component: InformationsPage },
+  { path: '/studio', component: StudioPage },
   { path: '/contacts', component: ContactsPage },
   { path: '/portfolio', component: PortfolioPage },
   { path: '/s/:alias', component: SectionPage },

@@ -73,11 +73,11 @@ export const sections = [
   },
   {
     name: 'K-WAY',
-    alias: 'K-WAY'
+    alias: 'k-way'
   },
   {
     name: 'KAPPA',
-    alias: 'KAPPA'
+    alias: 'kappa'
   },
   {
     name: 'KARHU',
@@ -226,4 +226,81 @@ export const filters = [
     name: '2025',
     alias: '2025'
   },
+]
+
+export const galleries = [
+  {
+    alias: 'k-way',
+    title: 'K WAY',
+    sub: 'Creative direction and production of the Fall Winter 2023 <br>' +
+      'Ski Collection launch campaign.',
+    year: '2023',
+    thumb: 'img/gallery/k-way.png',
+    slides: [
+      {
+        key: '1',
+        file: 'img/gallery/k-way/1.png',
+        theme: 'light'
+      },
+      {
+        key: '2',
+        file: 'img/gallery/k-way/2.png',
+        theme: 'dark'
+      },
+      {
+        key: '3',
+        file: 'img/gallery/k-way/3.png',
+        theme: 'dark'
+      },
+      {
+        key: '4',
+        file: 'img/gallery/k-way/4.png',
+        theme: 'light'
+      },
+      {
+        key: '5',
+        file: 'img/gallery/k-way/5.png',
+        theme: 'light'
+      },
+      {
+        key: '6',
+        file: 'img/gallery/k-way/6.png',
+        theme: 'light'
+      },
+    ],
+  },
+  {
+    alias: 'kappa',
+    title: 'KAPPA',
+    sub: 'Creative direction and production of the Kappa Horizon winter collection.',
+    year: '2023',
+    thumb: 'img/gallery/kappa.png',
+    slides: [
+      {
+        key: '1',
+        file: 'img/gallery/kappa/1.png',
+        theme: 'light'
+      },
+      {
+        key: '2',
+        file: 'img/gallery/kappa/2.png',
+        theme: 'light'
+      },
+      {
+        key: '3',
+        file: 'img/gallery/kappa/3.png',
+        theme: 'light'
+      },
+      {
+        key: '4',
+        file: 'img/gallery/kappa/4.png',
+        theme: 'light'
+      },
+      {
+        key: '5',
+        file: 'img/gallery/kappa/5.png',
+        theme: 'light'
+      },
+    ],
+  }
 ]

@@ -1,7 +1,7 @@
 <template>
 
-  <main class="h-full">
-    <div class="grid grid-rows-7 grid-cols-7 gap-4 px-4 py-4">
+  <main class="relative h-full container mx-auto h-full bg-sf-gray text-sf-white">
+    <div class="h-full grid grid-rows-7 grid-cols-7 gap-0 px-4 py-4">
       <div class="col-start-1 row-start-3 row-end-3 text-xs">
         Full-service creative firm, <br>
         based in Italy (2010)
@@ -39,32 +39,26 @@
         Brand Development Strategy
       </div>
       <div class="col-start-6 row-start-1">
-        <router-link
-            class="bg-sf-white px-8 py-1 rounded-full text-base text-sf-black"
-            to="/portfolio"
-        >PORTFOLIO</router-link>
+        <porfolio-btn/>
       </div>
       <div class="col-start-6 row-start-3 row-span-3">
-        <img src="../assets/img/studio.svg" alt="Studio">
+        <img src="../assets/img/studio-white.svg" alt="Studio">
       </div>
       <div class="col-start-6 row-start-6 text-sm">
-        <ul>
-          <li>
-            <router-link to="/informations">Informations</router-link>
-          </li>
-          <li>
-            <router-link to="/contacts">Contacts</router-link>
-          </li>
-        </ul>
+        <about-links/>
       </div>
       <div class="col-start-7"></div>
     </div>
+    <footer-gallery/>
   </main>
 
 </template>
 
 <script setup>
 import { sections, filters } from '@/content'
+import AboutLinks from '@/components/AboutLinks'
+import PorfolioBtn from '@/components/PorfolioBtn'
+import FooterGallery from '@/components/FooterGallery'
 </script>
 
 <style scoped lang="scss">

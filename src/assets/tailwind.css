@@ -12,4 +12,11 @@
         font-weight: normal;
         font-style: normal;
     }
+    @font-face {
+        font-family: 'Waldenburg';
+        src: url('fonts/Waldenburg-Halbfett.eot');
+        src: local('☺'), url('fonts/Waldenburg-Halbfett.woff') format('woff'), url('fonts/Waldenburg-Halbfett.ttf') format('truetype'), url('fonts/Waldenburg-Halbfett.svg') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
 }
